@@ -45,7 +45,10 @@ section#login > div#imagem {
     background: #5f2cb2 url(../imagens/pexels-matheus-souza-3693599.jpg) no-repeat;
     height: 200px;
     background-size: cover;
-    background-position: bottom, bottom;
+    background-position: bottom, center;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#formulario {
